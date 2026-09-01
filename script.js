@@ -1,0 +1,1 @@
+window.addEventListener('load',function(){var form=document.getElementById('repairForm');if(form){form.addEventListener('submit',function(e){e.preventDefault();document.getElementById('message').textContent='Thanks. We will contact you.';});}});
